@@ -1,8 +1,63 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>HTML Me Something</title>
+      <link rel="stylesheet" href="styles.css">
+      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
    </head>
    <body>
-      <!-- Write your HTML in this file! -->
+     <nav>
+      <a href="#hobbies-section" class="navbar-link">Hobbies</a>
+      <a href="#article-container" class="navbar-link">Trip</a>
+      <a href="#resume-section" class="navbar-link">Resume</a>
+     </nav>
+
+     <header id="introduction">
+      <h1>Tashe Stefacek</h1>
+      <h2>a web developer</h2>
+     </header>
+
+     <main>
+      <div id="article-container">
+      <article>
+         From the ages of 16 to 21, I was a member of Growing American Youth, 
+         a group whose purpose is to provide community and support for LGBTQ+ youth in Saint Louis.
+         On June 22nd, 2010, I attended the LGBT Pride Reception at the White House, 
+         and had the great honor of meeting President Obama! 
+      </article>
+      <img src="obamaAndMe.jpg">
+      </div>
+     </main>
+
+     <section id="hobbies-section">
+      <p>My hobbies include: </p>
+      <ul>
+         <li>Gaming (mostly FPS, and The Sims 4)</li>
+         <li>Reading</li>
+         <li>Cooking/Baking</li>
+         <li>Playing Music</li>
+      </ul>
+     </section>
+
+     <section id="resume-section">
+      <p>My goal as a programmer is to create and manage webpages for small businesses!
+         Here are some of my projects:</p>
+         <div class="project-container">
+         <img class="project-image" src="documentationPage.jpg">
+         <a href="https://codepen.io/tashe-stefacek/full/mdwQRNM" target="_blank">Technical Documentation Page</a>
+         </div>
+         <div class="project-container">
+         <img class="project-image" src="nutritionLabel.jpg">
+         <a href="https://codepen.io/tashe-stefacek/full/OJZNBxw" target="_blank">Typography</a>
+         </div>
+         <div class="project-container">
+         <img class="project-image" src="surveyForm.jpg">
+         <a href="https://codepen.io/tashe-stefacek/full/NWMxWdb" target="_blank">Survey Form</a>
+         </div>
+      </section>
+
+     <footer>&copyTSquared Designs</footer>
    </body>
 </html>
