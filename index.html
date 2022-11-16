@@ -8,15 +8,17 @@
       <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
    </head>
    <body>
-     <nav>
-      <a href="#hobbies-section" class="navbar-link">Hobbies</a>
-      <a href="#article-container" class="navbar-link">Trip</a>
-      <a href="#resume-section" class="navbar-link">Resume</a>
+     <nav id="nav-bar">
+      <a class="nav-link" href="#article-container" class="navbar-link">Trip</a>
+      <a class="nav-link" href="#hobbies-section" class="navbar-link">Hobbies</a>
+      <a class="nav-link" href="#resume-section" class="navbar-link">Resume</a>
      </nav>
 
-     <header id="introduction">
+     <header>
+      <div id="header-div">
       <h1>Tashe Stefacek</h1>
       <h2>a web developer</h2>
+      </div>
      </header>
 
      <main>
@@ -27,37 +29,44 @@
          On June 22nd, 2010, I attended the LGBT Pride Reception at the White House, 
          and had the great honor of meeting President Obama! 
       </article>
-      <img src="obamaAndMe.jpg">
+      <img id="article-img" src="obamaAndMe.jpg">
       </div>
      </main>
 
      <section id="hobbies-section">
-      <p>My hobbies include: </p>
+      <div id="hobbies-container">
+      <p>HOBBIES:</p>
       <ul>
-         <li>Gaming (mostly FPS, and The Sims 4)</li>
-         <li>Reading</li>
+         <li>Playing video games, mainly FPS</li>
+         <li>Reading fantasy novels</li>
          <li>Cooking/Baking</li>
-         <li>Playing Music</li>
       </ul>
+      
+      </div>
      </section>
 
      <section id="resume-section">
       <p>My goal as a programmer is to create and manage webpages for small businesses!
          Here are some of my projects:</p>
-         <div class="project-container">
+         <div id="project-container">
+         <div class="project-tile">
          <img class="project-image" src="documentationPage.jpg">
-         <a href="https://codepen.io/tashe-stefacek/full/mdwQRNM" target="_blank">Technical Documentation Page</a>
+         <a class="project-link" href="https://codepen.io/tashe-stefacek/full/mdwQRNM" target="_blank">Technical Documentation Page</a>
          </div>
-         <div class="project-container">
+         <div class="project-tile">
          <img class="project-image" src="nutritionLabel.jpg">
-         <a href="https://codepen.io/tashe-stefacek/full/OJZNBxw" target="_blank">Typography</a>
+         <a class="project-link" href="https://codepen.io/tashe-stefacek/full/OJZNBxw" target="_blank">Typography</a>
          </div>
-         <div class="project-container">
+         <div class="project-tile">
          <img class="project-image" src="surveyForm.jpg">
-         <a href="https://codepen.io/tashe-stefacek/full/NWMxWdb" target="_blank">Survey Form</a>
+         <a class="project-link"  href="https://codepen.io/tashe-stefacek/full/NWMxWdb" target="_blank">Survey Form</a>
+         </div>
          </div>
       </section>
-
+      <section id="invisible-section">
+         <h3 id="mainHeading">h3</h3>
+         <p id= "testP" class="funParagraph">p</p>
+      </section> 
      <footer>&copyTSquared Designs</footer>
    </body>
 </html>
